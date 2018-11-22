@@ -187,11 +187,6 @@ var Heart = document.getElementById('heart'+Hearts+'');
 
 
 
-
-
-
-
-
 window.onkeydown = function(e){KEY[e.keyCode] = true;}
 window.onkeyup = function(e){
 	KEY[e.keyCode] = false;
